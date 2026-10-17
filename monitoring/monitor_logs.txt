@@ -2,23 +2,23 @@
 ==================================================
              EC2 MONITORING REPORT
 ==================================================
-Date       : 2026-10-17 09:45:03
+Date       : 2026-10-17 11:02:29
 Hostname   : ip-172-31-10-205
 ==================================================
 
 [ CPU USAGE ]
-%Cpu(s):  0.0 us,  4.5 sy,  0.0 ni, 95.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
 
 [ MEMORY USAGE ]
                total        used        free      shared  buff/cache   available
-Mem:           908Mi       322Mi       146Mi       2.7Mi       552Mi       586Mi
+Mem:           908Mi       326Mi       211Mi       2.7Mi       484Mi       581Mi
 Swap:             0B          0B          0B
 
 [ DISK USAGE ]
 Filesystem       Size  Used Avail Use% Mounted on
 /dev/root        6.7G  2.3G  4.4G  35% /
 tmpfs            455M     0  455M   0% /dev/shm
-tmpfs            182M  912K  181M   1% /run
+tmpfs            182M  904K  181M   1% /run
 efivarfs         128K  3.1K  120K   3% /sys/firmware/efi/efivars
 none             1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
 tmpfs            455M     0  455M   0% /tmp
